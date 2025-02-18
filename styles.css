@@ -1,3 +1,54 @@
 body{
     background-color: lightblue;
+    margin: 0px;
+}
+
+#headerUGB{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0px;
+    background-color: blue;
+    padding-right: 50px;
+}
+
+#headerUGB h1{
+    color: white;
+    font-size: 12;
+    text-align: center;
+}
+
+#logoUGBimg{
+    height: auto;
+    width: 200px;
+}
+
+#listadoHeader{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    text-align: right;
+
+}
+
+#footerUGB{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footerUGB ul{
+    color: white;
+    list-style: none;
+    text-align: center;
+    
 }
