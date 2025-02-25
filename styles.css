@@ -10,7 +10,7 @@ body{
     flex-direction: row;
     justify-content:space-between;
     margin: 0px;
-    background-color: #2973B2;
+    background-color: darkblue;
     padding-right: 50px;
     height: auto;
 }
@@ -22,8 +22,9 @@ body{
 }
 
 #logoUGBimg{
-    width: 200px;
-    height: 103.28px;
+    width: 175px;
+    height: 80.28px;
+    align-self: center;
 }
 
 #listadoHeader{
