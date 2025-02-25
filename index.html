@@ -12,7 +12,7 @@
 
     <div class="MainDiv">
         <div class="leftMainDiv">
-            <img src="images/dengue.webp">
+            <img src="images/dengue.webp" style="height: 200px; width: 325px;">
         </div>
         <div class="rightMainDiv">
             <div>
@@ -29,38 +29,42 @@
 
     <div class="sectionRight">
         <div>
-        <img src="images/DolorAbdomen.png"> 
+        <img src="images/DolorAbdomen.png" onclick="ClicImagen('abdomen')"> 
         </div>
         <div style="min-width: 105px;">
             <h1>Dolor intenso en el abdomen</h1>
+            <p id="txtSintomaDolorAbdominal"></p>
         </div>
     </div>
 
     <div class="sectionLeft">
             <div style="text-align: end; min-width: 105px;">
             <h1 style="text-align: left;">Vómitos persistentes</h1>
+            <p id="txtSintomaVomitos"></p>
         </div>
         <div>
-        <img src="images/Vomitos.png"> 
+        <img src="images/Vomitos.png" onclick="ClicImagen('vomito')"> 
         </div>
 
     </div>
 
     <div class="sectionRight">
         <div>
-        <img src="images/SANGRADO-DE-NARIZ.jpg"> 
+        <img src="images/SANGRADO-DE-NARIZ.jpg" onclick="ClicImagen('sangrado')"> 
         </div>
         <div style="min-width: 105px;">
             <h1>Sangrado</h1>
+            <p id="txtSintomaSangrado"></p>
         </div>
     </div>
 
     <div class="sectionLeft">
         <div style="text-align: end; min-width: 105px;">
         <h1>Cansancio o inquietud extremos</h1>
+        <p id="txtSintomaCansancio"></p>
     </div>
     <div>
-    <img src="images/images.jpeg"> 
+    <img src="images/cansancioimg.jpeg" onclick="ClicImagen('cansancio')"> 
     </div>
 
 </div>
@@ -70,15 +74,8 @@
 
 
 
-
     <!--Aca comienza el footer-->
-    <div id="footerUGB" onclick="Test()">
-        <ul><marquee>
-            <li>Oscar René Palacios Franco</li>
-            <li>Gerson Manasés Flores Quinteros</li>
-            <li>Examen Parcial - Primer Computo</li>
-        </ul></marquee>
-    </div>
+ <custom-footer></custom-footer>
     <script src="scripts.js"></script>
 </body>
 </html>

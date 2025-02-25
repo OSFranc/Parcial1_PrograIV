@@ -1,5 +1,5 @@
 body{
-    background-color: #F2EFE7;
+    background-color: #F2F9FF;
     margin: 0px;
     font-family: sans-serif;
 }
@@ -53,7 +53,7 @@ body{
 
 .MainDiv img{
     border-radius: 5px;
-    border: solid black 3px;
+    border: solid gray 2.5px;
 }
 
 .rightMainDiv{
@@ -74,14 +74,14 @@ body{
     flex-wrap: nowrap;
     gap: 50px;
     align-items:center;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
-    justify-content: center;
-    border-left: 20%;
-    border-right: 20%;
-    background-color: #9ACBD0;
+    justify-content: space-around;
+    border-left: 15%;
+    border-right: 15%;
+    background-color: #FFCCE1;
 
 }
 
@@ -89,7 +89,7 @@ body{
     border-radius: 10px;
     height: 190px;
     width: 290px;
-    border: solid #2973B2 4px;
+    border: solid #F2F9FF 4px;
 }
 
 
@@ -100,14 +100,14 @@ body{
     flex-wrap: nowrap;
     gap: 50px;
     align-items:center;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
-    justify-content: center;
+    justify-content: space-around;
     border-left: 20%;
     border-right: 20%;
-    background-color:#48A6A7;
+    background-color:#E195AB;
 
 
 
@@ -117,7 +117,7 @@ body{
     border-radius: 10px;
     height: 190px;
     width: 290px;
-    border: solid #2973B2 2px;
+    border: solid #F2F9FF 4px;
 
 }
 
